@@ -9,7 +9,8 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    bssp: './src/mains/bssp.js',
+    programs: './src/mains/programs.js',
   },
   output: {
     path: config.build.assetsRoot,
