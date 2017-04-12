@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>test</h1>
     <ul id="example-1">
       <li v-for="item in items">
         {{ item }}
@@ -26,4 +27,7 @@ export default {
 </script>
 
 <style>
+  h1 {
+    font-style: italic;
+  }
 </style>
