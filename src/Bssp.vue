@@ -1,30 +1,28 @@
 <template>
-  <div>
-    <h1>test</h1>
-    <ul id="example-1">
-      <li v-for="item in items">
-        {{ item }}
-      </li>
-    </ul>
+  <div class="container">
+    <face-block-grid></face-block-grid>
   </div>
 </template>
 
 <script>
-import Face from './components/Face';
+  import FaceBlockGrid from './components/FaceBlockGrid';
+  import Faces from './data/bssp.ts';
 
-export default {
-  name: 'bssp',
-  components: { Face },
-  data() {
-    return {
-      items: [
-        'a',
-        'b',
-      ],
-    };
-  },
-};
+  export default {
+    name: 'bssp',
+    components: { FaceBlockGrid },
+    data() {
+      return {
+        faces: Faces,
+      };
+    },
+  };
 </script>
 
-<style>
+<style scoped>
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 62.5rem;
+  }
 </style>
