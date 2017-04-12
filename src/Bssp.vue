@@ -27,7 +27,4 @@ export default {
 </script>
 
 <style>
-  h1 {
-    font-style: italic;
-  }
 </style>
