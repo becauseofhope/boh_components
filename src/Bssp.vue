@@ -20,7 +20,7 @@
   };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .container {
     margin-left: auto;
     margin-right: auto;
