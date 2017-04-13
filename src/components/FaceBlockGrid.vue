@@ -1,6 +1,6 @@
 <template>
   <div>
-    Face Grid Here
+    Face Grid Here!
   </div>
 </template>
 
@@ -10,5 +10,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="scss">
+  @import "face-block-grid";
 </style>
