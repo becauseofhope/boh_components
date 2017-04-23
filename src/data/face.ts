@@ -1,5 +1,5 @@
 export interface Face {
-  fullName: string,
+  title: string,
   description: string,
   imageName: string,
 }

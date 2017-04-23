@@ -1,6 +1,7 @@
 <template>
   <div>
     Face Grid Here!
+    <img src="../assets/bssp/bagume.jpg" alt="">
   </div>
 </template>
 

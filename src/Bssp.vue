@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <img src="./assets/bssp/bagume.jpg" alt="">
     <face-block-grid></face-block-grid>
   </div>
 </template>
