@@ -10,6 +10,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-  @import "face-block-grid";
-</style>
+<style src="./_face-block-grid.scss" lang="scss"></style>
