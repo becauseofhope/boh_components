@@ -2,7 +2,13 @@
 
 @include foundation-everything;
 
-div {
-  @include grid-layout(3, '.gallery-item', 2);
+.grid {
+  @include grid-layout(3, '.gallery-item', 0);
+}
+
+// Reset some styling stuff from Brooklyn
+img {
+  max-width: 100% !important;
+  margin-left: 0 !important;
 }
 
