@@ -1,7 +1,8 @@
 @import '../../node_modules/foundation-sites/scss/foundation.scss';
 
-//@include foundation-everything;
+@include foundation-everything;
 
 div {
+  @include grid-layout(3, '.gallery-item', 2);
 }
 
