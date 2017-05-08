@@ -29,4 +29,4 @@ export default {
 };
 </script>
 
-<style src="./_face-block-grid.scss" lang="scss"></style>
+<style src="./_face-block-grid.scss" lang="scss" scoped></style>

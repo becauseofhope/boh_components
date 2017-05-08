@@ -2,10 +2,6 @@
 
 @include foundation-everything;
 
-.grid {
-  @include grid-layout(3, '.gallery-item', 0);
-}
-
 // Reset some styling stuff from Brooklyn
 img {
   max-width: 100% !important;
