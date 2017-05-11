@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ hello }}
+    <face/>
     <div class="row small-up-2 medium-up-3 large-up-3 grid">
       <div class="column column-block">
         <img src="//placehold.it/300x300" class="thumbnail" alt="">
@@ -21,6 +21,7 @@
         <img src="//placehold.it/300x300" class="thumbnail" alt="">
       </div>
     </div>
+
   </div>
 </template>
 
