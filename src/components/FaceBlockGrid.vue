@@ -23,10 +23,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'face-block-grid',
-};
-</script>
+<script src="./faceBlockGrid.ts"></script>
 
 <style src="./_face-block-grid.scss" lang="scss" scoped></style>
