@@ -46,6 +46,11 @@ export const Faces: Face[] = [
     description: '3Testy 3Test 3Test',
     imageName: 'test3.jpg',
   },
+  {
+    title: '4Testy 4McTestFace',
+    description: '4Testy 4Test 4Test',
+    imageName: 'test4.jpg',
+  },
 ];
 
 export default Faces;
