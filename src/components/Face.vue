@@ -1,6 +1,9 @@
 <template>
   <div>
-    <img src="//placehold.it/400x400" class="thumbnail" alt="">
+    <img :src="imgsrc">
+    <p>
+      {{ face.title }}
+    </p>
   </div>
 </template>
 
