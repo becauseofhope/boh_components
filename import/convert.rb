@@ -3,7 +3,7 @@ require 'yaml'
 
 faces = []
 
-Dir.glob("bssp/*.yaml") do |face_fn|
+Dir.glob(ARGV[0] + "/*.yaml") do |face_fn|
   face_raw = YAML.load_file(face_fn)
   face = {
     title: face_raw["title"],

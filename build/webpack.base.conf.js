@@ -10,7 +10,7 @@ function resolve (dir) {
 module.exports = {
   entry: {
     bssp: './src/mains/bssp.js',
-    programs: './src/mains/programs.js',
+    beads: './src/mains/beads.js',
   },
   output: {
     path: config.build.assetsRoot,
