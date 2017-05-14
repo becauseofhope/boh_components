@@ -6,7 +6,7 @@
         {{ face.description }}
       </p>
     </div>
-    <p>
+    <p class="title">
       {{ face.title }}
     </p>
   </div>
@@ -19,6 +19,12 @@
 
 .face {
   position: relative;
+}
+
+.face > img {
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  display: block;
 }
 
 p.hover {
@@ -38,9 +44,8 @@ p.hover {
   visibility: visible;
 }
 
-.face > img {
-  max-width: 100% !important;
-  margin-left: 0 !important;
-  display: block;
+.title {
+  text-align: center;
 }
+
 </style>
