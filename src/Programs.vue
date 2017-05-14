@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <face-block-grid></face-block-grid>
+    <!--<face-block-grid></face-block-grid>-->
   </div>
 </template>
 

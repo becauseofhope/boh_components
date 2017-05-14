@@ -9,6 +9,6 @@
   </div>
 </template>
 
-<script src="./faceBlockGrid.ts" lang="ts"></script>
+<script src="./faceBlockGrid_script.ts" lang="ts"></script>
 
 <style src="./_face-block-grid.scss" lang="scss" scoped></style>

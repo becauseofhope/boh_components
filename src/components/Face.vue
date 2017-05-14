@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="face">
-      <img :src="imgsrc">
+      <img :src="face.imageName">
       <p class="hover">
-        Test Hover Text
+        {{ face.description }}
       </p>
     </div>
     <p>
@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<script src="./face.ts" lang="ts"></script>
+<script src="./face_script.ts" lang="ts"></script>
 
 <style scoped lang="scss">
 /* Reset some styling stuff from Brooklyn*/

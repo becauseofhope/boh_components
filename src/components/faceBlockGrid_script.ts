@@ -1,7 +1,7 @@
 
 import Vue from 'vue';
 import Component from 'vue-class-component';
-import Face from './Face';
+import Face from './Face.vue';
 import { Face as FaceData } from '../data/face';
 
 @Component({

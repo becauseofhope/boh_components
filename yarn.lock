@@ -6,6 +6,10 @@
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.18.tgz#cd67f27d3dc0cfb746f0bdd5e086c4c5d55be173"
 
+"@types/yamljs@^0.2.30":
+  version "0.2.30"
+  resolved "https://registry.yarnpkg.com/@types/yamljs/-/yamljs-0.2.30.tgz#d034e1d329e46e8d0f737c9a8db97f68f81b5382"
+
 abbrev@1, abbrev@1.0.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
@@ -1826,7 +1830,7 @@ diff@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-1.4.0.tgz#7f28d2eb9ee7b15a97efd89ce63dcfdaa3ccbabf"
 
-diff@3.2.0:
+diff@3.2.0, diff@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.2.0.tgz#c9ce393a4b7cbd0b058a725c93df299027868ff9"
 
@@ -3885,6 +3889,10 @@ macaddress@^0.2.8:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/macaddress/-/macaddress-0.2.8.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
 
+make-error@^1.1.1:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.2.3.tgz#6c4402df732e0977ac6faf754a5074b3d2b1d19d"
+
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
@@ -4305,7 +4313,7 @@ object-assign@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -5607,7 +5615,7 @@ source-list-map@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-1.1.2.tgz#9889019d1024cce55cdc069498337ef6186a11a1"
 
-source-map-support@^0.4.2:
+source-map-support@^0.4.0, source-map-support@^0.4.2:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.15.tgz#03202df65c06d2bd8c7ec2362a193056fef8d3b1"
   dependencies:
@@ -5782,7 +5790,7 @@ strip-indent@^1.0.1:
   dependencies:
     get-stdin "^4.0.1"
 
-strip-json-comments@~2.0.1:
+strip-json-comments@^2.0.0, strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
@@ -5945,6 +5953,28 @@ ts-loader@^2.0.3:
     loader-utils "^1.0.2"
     semver "^5.0.1"
 
+ts-node@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-3.0.4.tgz#a1475ebf24fd4e2ee2fba8b1aa1605b977bde506"
+  dependencies:
+    arrify "^1.0.0"
+    chalk "^1.1.1"
+    diff "^3.1.0"
+    make-error "^1.1.1"
+    minimist "^1.2.0"
+    mkdirp "^0.5.1"
+    source-map-support "^0.4.0"
+    tsconfig "^6.0.0"
+    v8flags "^2.0.11"
+    yn "^1.2.0"
+
+tsconfig@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/tsconfig/-/tsconfig-6.0.0.tgz#6b0e8376003d7af1864f8df8f89dd0059ffcd032"
+  dependencies:
+    strip-bom "^3.0.0"
+    strip-json-comments "^2.0.0"
+
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
@@ -6057,6 +6087,10 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
+user-home@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/user-home/-/user-home-1.1.1.tgz#2b5be23a32b63a7c9deb8d0f28d485724a3df190"
+
 user-home@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/user-home/-/user-home-2.0.0.tgz#9c70bfd8169bc1dcbf48604e0f04b8b49cde9e9f"
@@ -6095,6 +6129,12 @@ utils-merge@1.0.0:
 uuid@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
+
+v8flags@^2.0.11:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-2.1.1.tgz#aab1a1fa30d45f88dd321148875ac02c0b55e5b4"
+  dependencies:
+    user-home "^1.1.1"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.1"
@@ -6421,3 +6461,9 @@ yauzl@2.4.1:
 yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
+
+yn@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/yn/-/yn-1.3.0.tgz#1b0812abb8d805d48966f8df385dc9dacc9a19d8"
+  dependencies:
+    object-assign "^4.1.1"
