@@ -1,6 +1,11 @@
 <template>
   <div>
-    <img :src="imgsrc">
+    <div class="face">
+      <img :src="imgsrc">
+      <p class="hover">
+        Test Hover Text
+      </p>
+    </div>
     <p>
       {{ face.title }}
     </p>
@@ -9,10 +14,33 @@
 
 <script src="./face.ts" lang="ts"></script>
 
-<style scoped>
+<style scoped lang="scss">
 /* Reset some styling stuff from Brooklyn*/
-img {
+
+.face {
+  position: relative;
+}
+
+p.hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+
+.face:hover p.hover {
+  visibility: visible;
+}
+
+.face > img {
   max-width: 100% !important;
   margin-left: 0 !important;
+  display: block;
 }
 </style>
