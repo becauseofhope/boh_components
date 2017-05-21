@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <p class="title">
-      {{ popupActive }}
+  <div :class="popupActive ? 'popupActive' : ''">
+    <p class="title" v-if="popupActive">
+      {{ face.title }}
     </p>
-    <div class="face" :class="popupActive ? 'popupActive' : ''">
+    <div class="face" >
       <img :src="face.imageName" @click="popupActive = !popupActive">
       <p class="description" :class="titleDescription ? 'titleDescription' : ''">
         {{ face.description }}
       </p>
     </div>
-    <p class="title">
+    <p class="title" v-if="!popupActive">
       {{ face.title }}
     </p>
   </div>
@@ -52,7 +52,7 @@
 
   // Title option for hover
 
-  p.description.titleHover {
+  p.description.titleDescription {
     font-size: 20px;
     vertical-align: middle;
     align-items: center;
@@ -68,6 +68,12 @@
 @media print, screen and (max-width: 64em) {
   p.description {
     display: none;
+  }
+
+  .popupActive {
+    p.description {
+      display: block;
+    }
   }
 }
 
