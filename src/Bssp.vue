@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <face-block-grid :faces="faces" :title-hover="false"></face-block-grid>
+    <face-block-grid :faces="faces" :title-titleDescription="false"></face-block-grid>
   </div>
 </template>
 

@@ -1,8 +1,11 @@
 <template>
   <div>
+    <p class="title">
+      {{ popupActive }}
+    </p>
     <div class="face" :class="popupActive ? 'popupActive' : ''">
       <img :src="face.imageName" @click="popupActive = !popupActive">
-      <p class="hover" :class="titleHover ? 'titleHover' : ''">
+      <p class="description" :class="titleDescription ? 'titleDescription' : ''">
         {{ face.description }}
       </p>
     </div>
@@ -32,7 +35,8 @@
 // Only apply on "large default foundation"
 
 @media print, screen and (min-width: 64em) {
-  p.hover {
+  p.description {
+    display: block;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -48,7 +52,7 @@
 
   // Title option for hover
 
-  p.hover.titleHover {
+  p.description.titleHover {
     font-size: 20px;
     vertical-align: middle;
     align-items: center;
@@ -56,10 +60,17 @@
     display: flex;
   }
 
-  .face:hover p.hover {
+  .face:hover p.description {
     visibility: visible;
   }
 }
+
+@media print, screen and (max-width: 64em) {
+  p.description {
+    display: none;
+  }
+}
+
 
 .title {
   text-align: center;
