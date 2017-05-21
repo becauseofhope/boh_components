@@ -38,6 +38,7 @@ p.hover {
   height: 100%;
   width: 100%;
   visibility: hidden;
+  font-size: 11px;
 }
 
 .face:hover p.hover {
