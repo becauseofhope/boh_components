@@ -5,6 +5,7 @@ import { Face as FaceData } from '../data/face';
 @Component({
   props: {
     face: Object,
+    titleHover: Boolean,
   }
 })
 export default class Face extends Vue {

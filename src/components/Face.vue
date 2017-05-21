@@ -2,7 +2,7 @@
   <div>
     <div class="face">
       <img :src="face.imageName">
-      <p class="hover">
+      <p class="hover" :class="titleHover ? 'titleHover' : ''">
         {{ face.description }}
       </p>
     </div>
@@ -27,6 +27,8 @@
   display: block;
 }
 
+// Hover Text
+
 p.hover {
   position: absolute;
   top: 0;
@@ -39,6 +41,16 @@ p.hover {
   width: 100%;
   visibility: hidden;
   font-size: 11px;
+}
+
+// Title option for hover
+
+p.hover.titleHover {
+  font-size: 20px;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .face:hover p.hover {

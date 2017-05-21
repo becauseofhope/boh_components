@@ -7,6 +7,7 @@ import { Face as FaceData } from '../data/face';
 @Component({
   props: {
     faces: Array,
+    titleHover: Boolean,
   },
   components: {Face}
 })

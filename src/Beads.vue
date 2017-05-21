@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <face-block-grid v-bind:faces="faces"></face-block-grid>
+    <face-block-grid :faces="faces" :title-hover="true"></face-block-grid>
   </div>
 </template>
 

@@ -2,7 +2,7 @@
   <div>
     <div class="row small-up-2 medium-up-3 large-up-3 grid">
       <div v-for="face in faces" class="column column-block">
-        <face :face="face"/>
+        <face :face="face" :title-hover="titleHover"/>
       </div>
     </div>
 
