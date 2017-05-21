@@ -76,6 +76,9 @@ screen and (max-width: 63.999em) {
   // Don't bother with hover
   p.description {
     display: none;
+  }
+  img {
+    cursor: pointer;
   } // Popup only CSS.
   .popupActive {
     .title.top {
