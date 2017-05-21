@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="face">
-      <img :src="face.imageName">
+    <div class="face" :class="popupActive ? 'popupActive' : ''">
+      <img :src="face.imageName" @click="popupActive = !popupActive">
       <p class="hover" :class="titleHover ? 'titleHover' : ''">
         {{ face.description }}
       </p>
@@ -29,32 +29,36 @@
 
 // Hover Text
 
-p.hover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: 0;
-  padding: 10px;
-  color: white;
-  background-color: rgba(0,0,0,0.6);
-  height: 100%;
-  width: 100%;
-  visibility: hidden;
-  font-size: 11px;
-}
+// Only apply on "large default foundation"
 
-// Title option for hover
+@media print, screen and (min-width: 64em) {
+  p.hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    font-size: 11px;
+  }
 
-p.hover.titleHover {
-  font-size: 20px;
-  vertical-align: middle;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
+  // Title option for hover
 
-.face:hover p.hover {
-  visibility: visible;
+  p.hover.titleHover {
+    font-size: 20px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .face:hover p.hover {
+    visibility: visible;
+  }
 }
 
 .title {

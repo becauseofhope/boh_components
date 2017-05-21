@@ -10,4 +10,5 @@ import { Face as FaceData } from '../data/face';
 })
 export default class Face extends Vue {
   face: FaceData;
+  popupActive = false;
 };
