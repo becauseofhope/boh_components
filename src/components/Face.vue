@@ -1,5 +1,5 @@
 <template>
-  <div :class="popupActive ? 'popupActive' : ''">
+  <div class="container" :class="popupActive ? 'popupActive' : ''">
     <p class="title" v-if="popupActive">
       {{ face.title }}
     </p>
@@ -73,6 +73,16 @@
   .popupActive {
     p.description {
       display: block;
+    }
+    &.container {
+      z-index: 9999;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: white;
+      padding: 10px;
     }
   }
 }
