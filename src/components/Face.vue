@@ -1,5 +1,6 @@
 <template>
   <div class="container" :class="popupActive ? 'popupActive' : ''">
+    <a class="button" @click="popupActive = false" v-if="popupActive">Close</a>
     <p class="title" v-if="popupActive">
       {{ face.title }}
     </p>
@@ -26,7 +27,8 @@
 
 .face > img {
   max-width: 100% !important;
-  margin-left: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto;
   display: block;
 }
 
@@ -65,7 +67,7 @@
   }
 }
 
-@media print, screen and (max-width: 64em) {
+@media print, screen and (max-width: 63.999em) {
   p.description {
     display: none;
   }
@@ -87,6 +89,9 @@
   }
 }
 
+.button {
+  cursor: pointer;
+}
 
 .title {
   text-align: center;
