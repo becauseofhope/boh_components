@@ -7,7 +7,10 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'http://localhost:8000/',
+    // EG: ASSET_PUBLIC_PATH=http://remote-host:8000/
+    // Because this is building an external widget, relatives to
+    // root won't work except for the demo index.html.
+    assetsPublicPath: process.env['ASSET_PUBLIC_PATH'] || '/',
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.
