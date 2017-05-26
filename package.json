@@ -12,7 +12,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "heroku-postbuild": "ASSET_PUBLIC_PATH=\"//$HEROKU_APP_NAME\" npm run build"
+    "heroku-postbuild": "ASSET_PUBLIC_PATH=\"//$HEROKU_APP_NAME.herokuapp.com/\" npm run build"
   },
   "dependencies": {
     "foundation-sites": "^6.3.1",
