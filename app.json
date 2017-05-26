@@ -1,5 +1,11 @@
 {
   "name": "BOH Components",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs#v83"
