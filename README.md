@@ -1,4 +1,6 @@
-# BOH Components
+# Because of Hope Components
+
+for https://becauseofhope.org.
 
 Components for the Because of Hope Shopify site.
 
