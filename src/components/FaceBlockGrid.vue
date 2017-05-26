@@ -1,7 +1,8 @@
 <template>
   <div>
+    <input v-model="search" placeholder="Search">
     <div class="row small-up-2 medium-up-3 large-up-3 grid">
-      <div v-for="face in faces" class="column column-block">
+      <div v-for="face in facesSearch" class="column column-block">
         <face :face="face" :title-description="titleDescription"/>
       </div>
     </div>
