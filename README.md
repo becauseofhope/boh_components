@@ -4,6 +4,8 @@ Components for the Because of Hope Shopify site.
 
 With Review on Heroku.
 
+Using Vue.JS
+
 ## Build Setup
 
 ``` bash
@@ -28,5 +30,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
