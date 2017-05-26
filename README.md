@@ -2,6 +2,8 @@
 
 Components for the Because of Hope Shopify site.
 
+With Review on Heroku.
+
 ## Build Setup
 
 ``` bash
