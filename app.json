@@ -1,6 +1,8 @@
 {
   "name": "BOH Components",
-  "scripts": "ASSET_PUBLIC_PATH=$HEROKU_APP_NAME yarn build",
+  "scripts": {
+    "postdeploy": "ASSET_PUBLIC_PATH=$HEROKU_APP_NAME yarn build"
+  },
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs#v83"
