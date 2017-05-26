@@ -4,7 +4,11 @@ Components for the Because of Hope Shopify site.
 
 With Review on Heroku.
 
-Using Vue.JS
+Uses VueJS.
+
+## Instructions for use
+
+TODO
 
 ## Build Setup
 
