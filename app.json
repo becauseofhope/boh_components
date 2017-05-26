@@ -1,7 +1,7 @@
 {
   "name": "BOH Components",
   "scripts": {
-    "postdeploy": "ASSET_PUBLIC_PATH=$HEROKU_APP_NAME yarn build"
+    "postdeploy": "ASSET_PUBLIC_PATH=\"https://$HEROKU_APP_NAME.herokuapp.com/\" yarn build"
   },
   "buildpacks": [
     {
