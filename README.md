@@ -1,6 +1,6 @@
-# boh_components
+# BOH Components
 
-> A Vue.js project
+Components for the Because of Hope Shopify site.
 
 ## Build Setup
 
