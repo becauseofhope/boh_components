@@ -2,9 +2,8 @@ sudo: false
 language: node_js
 cache: yarn
 env:
-  - ASSET_PUBLIC_PATH="//components.becauseofhope.org/"
-  # Cut down the installation stuff.
-  - NODE_ENV=production
+  # Cut down the installation stuff. Always target Production.
+  - ASSET_PUBLIC_PATH="//components.becauseofhope.org/" NODE_ENV=production
 script:
   - yarn build
 deploy:
