@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+node_js: "7"
+cache: yarn
+env:
+  # Cut down the installation stuff. Always target Production.
+  - ASSET_PUBLIC_PATH="//components.becauseofhope.org/" NODE_ENV=production
+script:
+  - yarn build
+deploy:
+  provider: s3
+  access_key_id: AKIAIVSFJUMA2GHCLD3A
+  secret_access_key:
+    secure: "YiR95e4kGwPvbw3lGxQqSbbfhaSMoht9YC+BeXmj1gbuxpSWxylyFDMeFRAUFcbQDoFCZA5MpG+RiD9P2Xad8f7GFDilZig8lawXAsjj9DvzjmG/Tgxs5ZAH+7XQugSqXUoWo4hPE4Md4dHQYl0HKxCuO5KNJjgk1cDXqfmm4XsWj7Xmawukn7uEPx7j+Wt75GOKArS9T+7JqxHLOvpHWO2n2kln5gK7DjWcPr68Bzi5BWvYy+NEdQGNK7fF+UOncghJrk4PkK/geTIT0cjs4G9yUu7ZIj5kn6lUTKZGfUR5bx6KJARxT+vUW/Hxb6ov5LL2/bhK6B5hcPwFQExYaw5ZQVAABM4DQL0fXP6zi/6hyqZNpPrPPNycTGaFNvhBDRMNpi4jPaxrwsu4+8Ke8suC5mv7OuBbneysQPnfM+ZHXGQ96kmYN/wjcqQmwLkBOCrxXnMo9qX5m7nyripfSdbNR+yP3DnINTRrr01wFtAWbVfMc+nw3e73lafvtsoX0smMItXvZaCTIeYOpihoM0gZjsVKK9PJKKoRpl4BumHph3BiAn72OSZpM+B3mmImUyGagGbu8jnihKREnGaNeyPa28CG1GO+FrxcK1PyoGO5d3kxWNgPgWiqbhSK3E7ge6NJGmhFWxf2g8DgpPq0CaYeniXg/Ho3iOckCRBR3X4="
+  bucket: components.becauseofhope.org
+  skip_cleanup: true
+  local-dir: dist
+  acl: public_read
+  on:
+    branch: master
+    repo: becauseofhope/boh_components
