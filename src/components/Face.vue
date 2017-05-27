@@ -5,7 +5,9 @@
       {{ face.title }}
     </p>
     <div class="face">
-      <img :src="face.imageName" @click="popupActive = !popupActive">
+      <div class="imgContainer">
+        <img :src="face.imageName" @click="popupActive = !popupActive">
+      </div>
       <p class="description" :class="titleDescription ? 'titleDescription' : ''">
         {{ face.description }}
       </p>
@@ -25,12 +27,24 @@
   position: relative;
 }
 
-.face>img {
+.face img {
   max-width: 100% !important;
   margin-left: auto !important;
   margin-right: auto;
   display: block;
 }
+
+// Preload square size of faces
+.imgContainer {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  img {
+    width: 100%;
+    position: absolute;
+  }
+}
+
 
 // Only used for popup component
 .title.top {
@@ -83,6 +97,7 @@ screen and (max-width: 63.999em) {
   .popupActive {
     .title.top {
       display: block;
+
     }
     .title.bottom {
       display: none;
@@ -90,8 +105,17 @@ screen and (max-width: 63.999em) {
     .title.close.button {
       display: block;
     }
-    img {
+
+    .imgContainer {
       height: 30vh;
+      width: auto;
+      padding: 0;
+    }
+
+    .imgContainer img {
+      height: 30vh;
+      width: auto;
+      position: relative;
     }
     p.description {
       display: block;
@@ -112,6 +136,7 @@ screen and (max-width: 63.999em) {
       left: 0;
       background-color: white;
       padding: 10px;
+      padding-top: 50px;
       overflow: auto;
     }
   }
