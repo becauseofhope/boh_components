@@ -36,6 +36,7 @@
 
 // Preload square size of faces
 .imgContainer {
+  background-color: #45818e;
   width: 100%;
   height: 0;
   padding-bottom: 100%;
@@ -107,6 +108,7 @@ screen and (max-width: 63.999em) {
     }
 
     .imgContainer {
+      background-color: transparent;
       height: 30vh;
       width: auto;
       padding: 0;
