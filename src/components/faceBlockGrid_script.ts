@@ -19,7 +19,7 @@ export default class FaceBlockGrid extends Vue {
     if (this.search.length > 0) {
       return this.faces.filter(
         (face) => {
-          return face.description.toLowerCase().indexOf(this.search.toLowerCase()) >= 0
+          return face.title.toLowerCase().indexOf(this.search.toLowerCase()) >= 0
         }
       );
     } else {
