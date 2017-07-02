@@ -6,7 +6,7 @@
     </p>
     <div class="face">
       <div class="imgContainer">
-        <img :src="face.imageName" @click="popupActive = !popupActive">
+        <img v-lazy="face.imageName" @click="popupActive = !popupActive">
       </div>
       <p class="description" :class="titleDescription ? 'titleDescription' : ''">
         {{ face.description }}
