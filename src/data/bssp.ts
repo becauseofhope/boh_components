@@ -22,11 +22,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Angella.jpg")
   },
   {
-    "title": "Aron",
-    "description": "Ten-year-old Aron is one of our youngest primary students. He is from Namagera village and is cared for by his grandmother, Matilda, and has three brothers and two sisters. His favorite subject is English. Aron likes airplanes and wants to be a pilot when he grows up.",
-    "imageName": require("../assets/images/bssp/ARon2016.jpg")
-  },
-  {
     "title": "Azizi",
     "description": "Azizi is 12 years old and taken care of by his aunt. He likes English and wants to be a doctor. He is all smiles and laughter, and when he plays soccer you can hear him laughing a mile away. His favorite foods are rice, chicken, and pasta.",
     "imageName": require("../assets/images/bssp/Aziz2016.jpg")
@@ -55,11 +50,6 @@ export const Faces: Face[] = [
     "title": "Dofina",
     "description": "Dofina is one of 3 children in her family. She enjoys science and wants to be a nurse when she grows up. Her favorite sport is noble and her favorite foods are rice, chicken, posho, and beans.",
     "imageName": require("../assets/images/bssp/Dofina2016.jpg")
-  },
-  {
-    "title": "Edirisa",
-    "description": "Edirisa is 14 years old and one of 6 kids in his family. He hopes to be a doctor and currently his favorite subject is social studies. Edirisa is great at soccer and his favorite foods are rice, posho, and chicken.",
-    "imageName": require("../assets/images/bssp/Edirisa2016.jpg")
   },
   {
     "title": "Gerald",
