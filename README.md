@@ -8,9 +8,20 @@ With Review on Heroku.
 
 Uses VueJS.
 
+Uses Typescript for data models.
+
 ## Instructions for use
 
-TODO
+### Setup
+
+1. `yarn install`
+2. `yarn build`
+3. On the Shopify pages where an element should be added, add custom HTML with an appropiate `div` and `id` attribute of the element to use.
+4. Ensure that a `script` element of the `vendor.js` and another `script` element of a specific component `.js` file is present in that HTML with the source javascript being from a built component that `yarn build` has made. It will include everything needed to generate an element into the page. This project has two elements. 
+
+### Development
+
+See `package.json` and the "`dev`" script. The dev server includes a mostly complete recreation of the CSS environment of the Shopify site locally.
 
 ## Build Setup
 
@@ -23,16 +34,4 @@ npm run dev
 
 # build for production with minification
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
