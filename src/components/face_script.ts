@@ -13,7 +13,8 @@ export default class Face extends Vue {
   face: FaceData;
   popupActive = false;
   mounted () {
-    console.log("Ready");
-    textFit(this.$el.getElementsByClassName("description"));
+    textFit(this.$el.getElementsByClassName("description"), {
+      minFontSize: 11,
+    });
   }
 };
