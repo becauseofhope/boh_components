@@ -13,8 +13,11 @@ export default class Face extends Vue {
   face: FaceData;
   popupActive = false;
   mounted() {
-    textFit(this.$el.getElementsByClassName("description"), {
-      minFontSize: 11,
-    });
+    // Don't do this for titleDescriptions which are big anyway.
+    if (!this.$props.titleDescription) {
+      textFit(this.$el.getElementsByClassName("description"), {
+        minFontSize: 10,
+      });
+    };
   }
 };

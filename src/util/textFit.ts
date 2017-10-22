@@ -125,18 +125,19 @@ function processItem(el, settings) {
   low = settings.minFontSize + 1;
   high = settings.maxFontSize + 1;
 
-  // Binary search for best fit
+  mid = low;
+  const step = 0.33;
+  // Linear search 
   while (low <= high) {
-    mid = (low + high) / 2;
     innerSpan.style.fontSize = mid + 'px';
     if (innerSpan.scrollWidth <= originalWidth && (settings.widthOnly || innerSpan.scrollHeight <= originalHeight)) {
-      low = mid + 1;
+      mid = mid + step;
     } else {
-      high = mid - 1;
+      break;
     }
   }
   // Sub 1 at the very end, this is closer to what we wanted.
-  innerSpan.style.fontSize = (mid - 1) + 'px';
+  innerSpan.style.fontSize = (mid - step) + 'px';
 
   // Our height is finalized. If we are aligning vertically, set that up.
   if (settings.alignVert) {
