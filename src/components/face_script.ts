@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import { Face as FaceData } from '../data/face';
-import * as textFit from 'textFit';
+import { textFit } from '../util/textFit';
 
 @Component({
   props: {
@@ -12,7 +12,7 @@ import * as textFit from 'textFit';
 export default class Face extends Vue {
   face: FaceData;
   popupActive = false;
-  mounted () {
+  mounted() {
     textFit(this.$el.getElementsByClassName("description"), {
       minFontSize: 11,
     });
