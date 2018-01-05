@@ -282,6 +282,11 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/beads/namukuta.jpg")
   },
   {
+    "title": "Namulimba Ruth",
+    "description": "Bubugo Village",
+    "imageName": require("../assets/images/beads/namulimbar.jpg")
+  },
+  {
     "title": "Namukuyi Jesca",
     "description": "Bubugo Village",
     "imageName": require("../assets/images/beads/namukuyi.jpg")
