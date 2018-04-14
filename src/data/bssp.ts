@@ -12,11 +12,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Agnes_Nuume_2016.jpg")
   },
   {
-    "title": "Alice",
-    "description": "Alice is a secondary student from Nakakulwe village. She works very hard to succeed in school and her favorite subject is English. She hopes to complete her education and become a teacher in the future.",
-    "imageName": require("../assets/images/bssp/Alice2016.jpg")
-  },
-  {
     "title": "Angella",
     "description": "Angella is the eldest of six children. She is 19 years old and is from the village of Namagera. Angella is in her second year of an accountancy program in the city of Jinja. Her mother, Jesca, is proud of all her hard work to pursue her education.",
     "imageName": require("../assets/images/bssp/Angella.jpg")
@@ -80,11 +75,6 @@ export const Faces: Face[] = [
     "title": "Julius",
     "description": "Julius is 22 years old and is looked after by his grandmother, Beatrice, who participates in the agriculture program. Julius is studying in an electrical engineering program.",
     "imageName": require("../assets/images/bssp/Julius.jpg")
-  },
-  {
-    "title": "Kamada",
-    "description": "Kamada is one of 11 kids. He lives with his parents, siblings, and grandparents, and he is skilled at raising the family’s chickens and goats. His favorite subject is reading and he wants to be a pilot. He also enjoys soccer.",
-    "imageName": require("../assets/images/bssp/Kamada2016.jpg")
   },
   {
     "title": "Christine K.",
