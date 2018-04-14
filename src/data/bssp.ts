@@ -32,11 +32,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/ChristineN.jpg")
   },
   {
-    "title": "Christopher",
-    "description": "Christopher is from Namagera village where his grandmother still lives. He loves to come back from university to visit family and play soccer with other BSSP students. Christopher is getting his bachelor’s degree in developmental studies.",
-    "imageName": require("../assets/images/bssp/Christopher.jpg")
-  },
-  {
     "title": "Cyprian",
     "description": "Cyprian is from Namagera village, where his grandmother still lives. He is working and gaining experience in a garage with his Motor Vehicle Engineering Certificate before he applies to university in June. Cyprian is extremely polite and kind, and he sets a good example for younger students in BSSP.",
     "imageName": require("../assets/images/bssp/Cyprian2016.jpg")
@@ -97,11 +92,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Leah2016.jpg")
   },
   {
-    "title": "Martha",
-    "description": "Martha is from Namagera village where her caretaker, Jane, lives. She is working towards a bachelor’s degree in education. Martha is friendly and kind, and has four sisters.",
-    "imageName": require("../assets/images/bssp/Martha2016.jpg")
-  },
-  {
     "title": "Mary",
     "description": "Mary is thirteen years old and has five brothers and sisters. She is one of the top students in her class, and her favorite subjects are religious education and math. Mary hopes to be a nurse in the future.",
     "imageName": require("../assets/images/bssp/Mary2016.jpg")
@@ -145,11 +135,6 @@ export const Faces: Face[] = [
     "title": "Titus",
     "description": "This little guy, Titus, is 10 years old and is one of 6 children in his family. He attends primary school and for fun he enjoys playing soccer with his friends. He hopes to become a pilot or doctor some day, “so that he can help orphaned children.”",
     "imageName": require("../assets/images/bssp/Titus2016.jpg")
-  },
-  {
-    "title": "Tom",
-    "description": "Tom is 27 years old and hopes to someday be a chef. He is in a catering program working hard toward this goal. He is dedicated to his family and cares deeply for his parents and siblings.",
-    "imageName": require("../assets/images/bssp/Tom2016.jpg")
   },
   {
     "title": "Violate",
