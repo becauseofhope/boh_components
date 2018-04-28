@@ -1,5 +1,7 @@
 # Because of Hope Components
 
+[![Build Status](https://travis-ci.org/becauseofhope/boh_components.svg?branch=master)](https://travis-ci.org/becauseofhope/boh_components)
+
 for https://becauseofhope.org.
 
 Components for the Because of Hope Shopify site.
