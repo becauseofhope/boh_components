@@ -3,12 +3,12 @@ import Face from './face';
 export const Faces: Face[] = [
   {
     "title": "Christopher",
-    "description": "Christopher is from Namagera village where his grandmother still lives. He loves to come back from university to visit family and play soccer with other BSSP students. Christopher is getting his bachelor’s degree in developmental studies.",
+    "description": "Christopher graduated in January of 2018 from Makerere University. He received his degree in Developmental Studies. Upon graduating, he offered to volunteer with BOH in hopes of using his knowledge to build up the community he was raised in. Now he’s employed with BOH to help WOCAP start earning income.",
     "imageName": require("../assets/images/bssp/Christopher.jpg")
   },
   {
     "title": "Martha",
-    "description": "Martha is from Namagera village where her caretaker, Jane, lives. She is working towards a bachelor’s degree in education. Martha is friendly and kind, and has four sisters.",
+    "description": "Martha attended Makerere University and has her BA in Teaching. Before her graduation in 2018, she had already attained a teaching position. She teaches History and Religious Education at an all girls secondary school.",
     "imageName": require("../assets/images/bssp/Martha2016.jpg")
   },
   {
