@@ -12,11 +12,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Agnes_Nuume2018.jpg")
   },
   {
-    "title": "Angella",
-    "description": "Angella is the eldest of six children. She is 20 years old and is from the village of Namagera. Angella is finishing an accountancy program in the city of Jinja, and will be applying for university this year. Her mother, Jesca, is proud of all her hard work to pursue her education.",
-    "imageName": require("../assets/images/bssp/Angella.jpg")
-  },
-  {
     "title": "Azizi",
     "description": "Azizi is 13 years old and taken care of by his aunt. He likes English and wants to be a doctor. He is all smiles and laughter, and when he plays soccer you can hear him laughing a mile away. His favorite foods are rice, chicken, and pasta.",
     "imageName": require("../assets/images/bssp/Aziz2018.jpg")
