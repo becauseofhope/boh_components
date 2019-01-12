@@ -107,11 +107,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Sandra2018.jpg")
   },
   {
-    "title": "Shakira",
-    "description": "9-year-old Shakira is from Namagera village and is one of 5 children. Her favorite subject in school is English and she hopes to be a doctor when she grows up. Her favorite sport is noble and her favorite food is rice and meat.",
-    "imageName": require("../assets/images/bssp/Shakira2018.jpg")
-  },
-  {
     "title": "Viola",
     "description": "Viola is 14 years old and is one of 6 children in her family. She is from Bubugo village and is cared for by her grandmother. Her favorite subject is math and she hopes to be a nurse. She loves running and her favorite food is potatoes and cabbage.",
     "imageName": require("../assets/images/bssp/Viola2018.jpg")
