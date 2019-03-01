@@ -27,9 +27,9 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Cyprian2018.jpg")
   },
   {
-    "title": "Derrick",
-    "description": "Derrick is the eldest of nine children, who all live in Bubugo village with their mother, Ruth. Derrick is very hard working and is excited to be in a program for motor vehicle engineering.",
-    "imageName": require("../assets/images/bssp/Derrick2018.jpg")
+    "title": "Derick",
+    "description": "Derick is the eldest of nine children, who all live in Bubugo village with their mother, Ruth. Derick is very hard working and is excited to be in a program for motor vehicle engineering.",
+    "imageName": require("../assets/images/bssp/Derick2018.jpg")
   },
   {
     "title": "Dofina",
