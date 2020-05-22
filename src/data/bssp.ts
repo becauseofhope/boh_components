@@ -32,11 +32,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Derick2018.jpg")
   },
   {
-    "title": "Dofina",
-    "description": "Dofina is one of 3 children in her family. She enjoys science and wants to be a nurse when she grows up. Her favorite sport is noble and her favorite foods are rice, chicken, posho, and beans.",
-    "imageName": require("../assets/images/bssp/Dofina2018.jpg")
-  },
-  {
     "title": "Gerald",
     "description": "Gerald is a 19 year old vocational student who hopes to one day be an engineer. He works hard in school to “fight for his future.” He is a leader at school and his best subject is English. Gerald enjoys playing soccer and his favorite food is rice and chicken.",
     "imageName": require("../assets/images/bssp/Gerald2018.jpg")
