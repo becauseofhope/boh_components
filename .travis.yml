@@ -1,7 +1,7 @@
 sudo: false
 dist: trusty
 language: node_js
-node_js: "7"
+node_js: "14"
 cache: yarn
 env:
   # Cut down the installation stuff. Always target Production.
