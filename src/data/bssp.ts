@@ -24,7 +24,7 @@ export const Faces: Face[] = [
   {
     "title": "Christine N.",
     "description": "Christine is an ambitious 26-year-old who hopes to someday be a successful business woman. She is in a business administration program, working hard to achieve her dreams.",
-    "imageName": require("../assets/images/bssp/Christine_2020.jpg")
+    "imageName": require("../assets/images/bssp/ChristineN.jpg")
   },
   {
     "title": "Cyprian",
