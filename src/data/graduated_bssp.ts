@@ -3,7 +3,7 @@ import Face from './face';
 export const Faces: Face[] = [
   {
     "title": "Christopher",
-    "description": "Christopher graduated in January of 2018 from Makerere University. He received his degree in Developmental Studies. Upon graduating, he offered to volunteer with BOH in hopes of using his knowledge to build up the community he was raised in. Now he’s employed with BOH to help WOCAP start earning income.",
+    "description": "Christopher graduated in January of 2018 from Makerere University. He received his degree in Developmental Studies and offered to volunteer with BOH in hopes of using his knowledge to build up the community he was raised in. Now he’s employed with BOH to help WOCAP start earning income.",
     "imageName": require("../assets/images/graduated_bssp/Christopher.jpg")
   },
   {
