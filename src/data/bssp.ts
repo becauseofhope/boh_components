@@ -54,7 +54,7 @@ export const Faces: Face[] = [
   {
     "title": "Jackline",
     "description": "Jackline is 23 and the oldest of 10 children. She recently graduated from YMCA Vocational School with a certificate in hairdressing. This kind girl is quick to make friends and is loving to all those around her.",
-    "imageName": require("../assets/images/bssp/Jackline_2020.jpg")
+    "imageName": require("../assets/images/bssp/Jackline2016.jpg")
   },
   {
     "title": "Jacob",
