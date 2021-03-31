@@ -12,6 +12,7 @@ module.exports = {
     bssp: './src/mains/bssp.js',
     graduated_bssp: './src/mains/graduated_bssp.js',
     beads: './src/mains/beads.js',
+    beads: './src/mains/meet_the_women.js',
   },
   output: {
     path: config.build.assetsRoot,
