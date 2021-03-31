@@ -95,7 +95,7 @@
     "yamljs": "^0.2.10"
   },
   "engines": {
-    "node": "^12.22.0",
+    "node": "^12.21",
     "npm": ">= 3.0.0"
   },
   "browserslist": [
