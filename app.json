@@ -1,5 +1,6 @@
 {
   "name": "BOH Components",
+  "stack": "heroku-20",
   "formation": {
     "web": {
       "quantity": 1,
@@ -8,17 +9,14 @@
   },
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs#v171"
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#v183"
     },
     {
-      "url": "https://github.com/heroku/heroku-buildpack-static.git#v3"
+      "url": "https://github.com/heroku/heroku-buildpack-static.git#v7"
     }
   ],
   "env": {
     "HEROKU_APP_NAME": {
-      "required": true
-    },
-    "HEROKU_PARENT_APP_NAME": {
       "required": true
     }
   }
