@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  dev:
+    image: "node:12"
+    user: "node"
+    working_dir: /home/node/project
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/project
+    command: "/bin/bash"
