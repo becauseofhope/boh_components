@@ -82,16 +82,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Mary_2020.jpg")
   },
   {
-    "title": "Racheal",
-    "description": "Racheal lives with her grandmother and is 1 of 3 kids in her family. She is 23 years old and is in vocational school working on a certificate in hotel management. Education is the most important thing to her so she can have a bright future.",
-    "imageName": require("../assets/images/bssp/Racheal2016.jpg")
-  },
-  {
-    "title": "Resty",
-    "description": "Resty is a secondary student in Nakakulwe village. She is taken care of by her mother, Annet, and six brothers and sisters. She does well in school and her favorite subjects are math and English. Resty hopes to complete her education so she can be a teacher in the future.",
-    "imageName": require("../assets/images/bssp/Resty_2020.jpg")
-  },
-  {
     "title": "Sandra",
     "description": "Sandra is 17 years old and her favorite subjects are geography and history. She hopes to be a journalist one day. There are 7 children in her family, and her favorite foods are potatoes, rice, and chicken. Sandra is sweet, friendly, and always smiling.",
     "imageName": require("../assets/images/bssp/Sandra_2020.jpg")
@@ -105,11 +95,6 @@ export const Faces: Face[] = [
     "title": "Viola",
     "description": "Viola is 16 years old and is one of 6 children in her family. She is from Bubugo village and is cared for by her grandmother. Her favorite subject is math and she hopes to be a nurse. She loves running and her favorite food is potatoes and cabbage.",
     "imageName": require("../assets/images/bssp/Viola_2020.jpg")
-  },
-  {
-    "title": "Violate",
-    "description": "Violate is twenty years old and has seven siblings. She has graduated from secondary school and is attending YMCA Vocational School to pursue a certificate in accounting.",
-    "imageName": require("../assets/images/bssp/Violate_2020.jpg")
   },
   {
     "title": "Winnie",
