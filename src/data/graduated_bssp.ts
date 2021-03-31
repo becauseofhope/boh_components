@@ -12,6 +12,11 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/graduated_bssp/Martha2016.jpg")
   },
   {
+    "title": "Paul",
+    "description": "Paul is from Nakakulwe village and has finished his coursework for a degree in chemical engineering. He is awaiting his graduation ceremony and is working part-time. In Paul’s free time he likes to write screenplays and play FIFA.",
+    "imageName": require("../assets/images/graduated_bssp/Paul2016.jpg")
+  },
+  {
     "title": "Tom",
     "description": "Tom is 27 years old and hopes to someday be a chef. He is in a catering program working hard toward this goal. He is dedicated to his family and cares deeply for his parents and siblings.",
     "imageName": require("../assets/images/graduated_bssp/Tom2016.jpg")
