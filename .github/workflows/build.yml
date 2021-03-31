@@ -18,7 +18,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '12'
-        
+
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -35,3 +35,14 @@ jobs:
       env:
         ASSET_PUBLIC_PATH: //components.becauseofhope.org/
         NODE_ENV: production
+    - name: Configure AWS credentials
+      if: github.ref == 'refs/heads/master'
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+    - name: Copy files to the bucket with AWS CLU
+      if: github.ref == 'refs/heads/master'
+      run: |
+        aws s3 sync dist s3://components.becauseofhope.org --acl public-read
