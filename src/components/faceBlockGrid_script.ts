@@ -13,4 +13,17 @@ import { Face as FaceData } from '../data/face';
 })
 export default class FaceBlockGrid extends Vue {
   faces: FaceData[];
+  search = "";
+
+  get facesSearch() {
+    if (this.search.length > 0) {
+      return this.faces.filter(
+        (face) => {
+          return face.title.toLowerCase().indexOf(this.search.toLowerCase()) >= 0
+        }
+      );
+    } else {
+      return this.faces;
+    }
+  }
 };
