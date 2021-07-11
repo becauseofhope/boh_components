@@ -1,6 +1,6 @@
 <template>
   <div class="container" :class="popupActive ? 'popupActive' : ''">
-    <a class="close button" @click="popupActive = false" v-if="popupActive">Close X</a>
+    <a class="close button" @click="popupActive = false" v-if="popupActive">X</a>
     <p class="title top">
       {{ face.title }}
     </p>
@@ -146,14 +146,17 @@ screen and (max-width: 63.999em) {
 
 .button {
   cursor: pointer;
-  border: 2px;
-  border-style: solid;
-  padding: 2px;
 }
 
 .close.button {
   position: absolute;
-  right: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+  top: 20px;
+  right: 30px;
+  padding: 10px;
+  color: gray;
+  font-size: 30px;
 }
 
 .title {
