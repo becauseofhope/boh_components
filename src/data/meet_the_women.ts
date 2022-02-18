@@ -22,11 +22,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/meet_the_women/ayanga.jpg")
   },
   {
-    "title": "Babiryo Scovia",
-    "description": "Namagera Village",
-    "imageName": require("../assets/images/meet_the_women/babiryo.jpg")
-  },
-  {
     "title": "Babita Hajjira",
     "description": "Bubugo Village",
     "imageName": require("../assets/images/meet_the_women/babita.jpg")
@@ -267,7 +262,7 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/meet_the_women/namugaboa.jpg")
   },
   {
-    "title": "Namugabo Scovia",
+    "title": "Nabiryo Scovia",
     "description": "Nakakulwe Village",
     "imageName": require("../assets/images/meet_the_women/namugabos.jpg")
   },
