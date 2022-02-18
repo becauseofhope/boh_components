@@ -22,11 +22,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/beads/ayanga.jpg")
   },
   {
-    "title": "Babiryo Scovia",
-    "description": "Namagera Village",
-    "imageName": require("../assets/images/beads/babiryo.jpg")
-  },
-  {
     "title": "Babita Hajjira",
     "description": "Bubugo Village",
     "imageName": require("../assets/images/beads/babita.jpg")
