@@ -262,7 +262,7 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/beads/namugaboa.jpg")
   },
   {
-    "title": "Namugabo Scovia",
+    "title": "Nabiryo Scovia",
     "description": "Nakakulwe Village",
     "imageName": require("../assets/images/beads/namugabos.jpg")
   },
