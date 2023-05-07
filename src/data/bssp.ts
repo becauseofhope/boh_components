@@ -87,11 +87,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Titus_2020.jpg")
   },
   {
-    "title": "Viola",
-    "description": "Viola is 16 years old and is one of 6 children in her family. She is from Bubugo village and is cared for by her grandmother. Her favorite subject is math and she hopes to be a nurse. She loves running and her favorite food is potatoes and cabbage.",
-    "imageName": require("../assets/images/bssp/Viola_2020.jpg")
-  },
-  {
     "title": "Winnie",
     "description": "Winnie is 15 years old and is 1 of 11 kids in her family. She loves school and believes that, “education is the weapon to change the world.” This smiley girl hopes to become an accountant in the future, and BOH wants to help her get there.",
     "imageName": require("../assets/images/bssp/Winnie_2020.jpg")
