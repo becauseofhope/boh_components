@@ -7,6 +7,11 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/graduated_bssp/Christopher.jpg")
   },
   {
+    "title": "Leah",
+    "description": "Leah is originally from Namagera village, where her mother, Betty, and six younger siblings live. Leah enjoys her education and is working on a degree from Makere University in Business Administration.",
+    "imageName": require("../assets/images/graduated_bssp/Leah_2020.jpg")
+  },
+  {
     "title": "Martha",
     "description": "Martha attended Makerere University and has her BA in Teaching. Before her graduation in 2018, she had already attained a teaching position. She teaches History and Religious Education at an all girls secondary school.",
     "imageName": require("../assets/images/graduated_bssp/Martha2016.jpg")
