@@ -72,11 +72,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/Julius.jpg")
   },
   {
-    "title": "Leah",
-    "description": "Leah is originally from Namagera village, where her mother, Betty, and six younger siblings live. Leah enjoys her education and is working on a degree from Makere University in Business Administration.",
-    "imageName": require("../assets/images/bssp/Leah_2020.jpg")
-  },
-  {
     "title": "Mary",
     "description": "Mary is sixteen years old and has five brothers and sisters. She is one of the top students in her class, and her favorite subject is chemistry because it is “the king of all subjects”. Mary hopes to be a nurse in the future.",
     "imageName": require("../assets/images/bssp/Mary_2020.jpg")
@@ -90,11 +85,6 @@ export const Faces: Face[] = [
     "title": "Titus",
     "description": "This little guy, Titus, is 13 years old and is one of 6 children in his family. He attends secondary school and for fun he enjoys playing soccer with his friends. He hopes to become a pilot one day!",
     "imageName": require("../assets/images/bssp/Titus_2020.jpg")
-  },
-  {
-    "title": "Viola",
-    "description": "Viola is 16 years old and is one of 6 children in her family. She is from Bubugo village and is cared for by her grandmother. Her favorite subject is math and she hopes to be a nurse. She loves running and her favorite food is potatoes and cabbage.",
-    "imageName": require("../assets/images/bssp/Viola_2020.jpg")
   },
   {
     "title": "Winnie",
