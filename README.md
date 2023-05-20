@@ -6,7 +6,7 @@ for https://becauseofhope.org.
 
 Components for the Because of Hope Shopify site.
 
-With Review on Heroku.
+With Review on Netlify.
 
 Uses VueJS.
 
