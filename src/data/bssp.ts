@@ -27,19 +27,9 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/ChristineN.jpg")
   },
   {
-    "title": "Cyprian",
-    "description": "Cyprian is from Namagera village, where his grandmother still lives. He is pursuing a degree in Motor Vehicle Engineering at Kampala International University. Cyprian is extremely polite and kind, and he sets a good example for younger students in BSSP.",
-    "imageName": require("../assets/images/bssp/Cyprian2018.jpg")
-  },
-  {
     "title": "Derick",
     "description": "Derick is the eldest of nine children, who all live in Bubugo village with their mother, Ruth. Derick is very hard working and has graduated from vocational school with a degree in motor vehicle engineering. He is now in his second year at Kampala International University.",
     "imageName": require("../assets/images/bssp/Derick2018.jpg")
-  },
-  {
-    "title": "Gerald",
-    "description": "Gerald is a 22-year-old university student who hopes to one day be an engineer. He works hard in school to “fight for his future.” He is a leader at school and his best subject is English. Gerald enjoys playing soccer and his favorite food is rice and chicken.",
-    "imageName": require("../assets/images/bssp/Gerald2018.jpg")
   },
   {
     "title": "Gloria",
