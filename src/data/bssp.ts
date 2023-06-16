@@ -27,11 +27,6 @@ export const Faces: Face[] = [
     "imageName": require("../assets/images/bssp/ChristineN.jpg")
   },
   {
-    "title": "Derick",
-    "description": "Derick is the eldest of nine children, who all live in Bubugo village with their mother, Ruth. Derick is very hard working and has graduated from vocational school with a degree in motor vehicle engineering. He is now in his second year at Kampala International University.",
-    "imageName": require("../assets/images/bssp/Derick2018.jpg")
-  },
-  {
     "title": "Gloria",
     "description": "Twenty-year-old Gloria is an incredibly hard working student from Namagera village. She has graduated from secondary school and hopes to pursue a degree in medicine.",
     "imageName": require("../assets/images/bssp/Gloria2018.jpg")
